@@ -6,9 +6,9 @@
 
 ## Reasoning
 
-VS Code can not be considered open software. The source is MIT licenced, but relevant extensions only work with Microsoft binaries.  
+VS Code can not be considered open software. The source is MIT licensed, but relevant extensions only work with Microsoft binaries.  
 Therefore a container isolates this questionable piece of software from the rest of the system, making it easier to remove it later on.  
-To clarify once more: This is not a dev container accesssible through VS Code. This is a container containing VS Code.  
+To clarify once more: This is not a dev container accessible through VS Code. This is a container containing VS Code.  
 
 ## Setup
 
