@@ -2,12 +2,13 @@
 
 > [!IMPORTANT]  
 > This repo will go hidden once the course starts (as it'll hold my assignments)
+> ![hidden](https://img.shields.io/date/1789344000?style=for-the-badge&label=Available%20until&color=00FFFF)
 
 ## Reasoning
 
 VS Code can not be considered open software. The source is MIT licenced, but relevant extensions only work with Microsoft binaries.  
 Therefore a container isolates this questionable piece of software from the rest of the system, making it easier to remove it later on.  
-To clarify once more: This is not a dev container accesssible through VS Code. This is a container containing VS Code.
+To clarify once more: This is not a dev container accesssible through VS Code. This is a container containing VS Code.  
 
 ## Setup
 
@@ -28,11 +29,11 @@ To clarify once more: This is not a dev container accesssible through VS Code. T
         ├── Dockerfile
         └── vscode.sh
     ```
-    Set the path to `../assignments/`
+    You'd set the path to `../assignments/`
 
 ## Usage
 
 Run the `vscode.sh` script to start the container  
-Provide the assignment to work on as parameter, e.g. `vscode.sh 01`
-Providing `reset` as parameter (e.g. `vscode.sh reset`) deletes the user config, resulting in a new Code setup
-Providing no parameter calls the directory defined for assignments
+Provide the assignment to work on as parameter, e.g. `vscode.sh 01`  
+Providing `reset` as parameter (e.g. `vscode.sh reset`) deletes the user config, resulting in a new Code setup  
+Providing no parameter calls the directory defined for assignments  
